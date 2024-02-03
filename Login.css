@@ -1,0 +1,104 @@
+
+.background-image {
+    background: url('https://wallpapers.com/images/hd/blurry-background-o3c8qhoihwnx9c6w.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%; 
+  }
+  
+  .form-header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  
+  
+  .form-subtext {
+    text-align: center;
+    color: #777;
+  }
+  
+  .custom-button {
+    background-color: #ff5e6c;
+    border-color: #ff5e6c;
+    margin-top: 0px;
+    width: 60%; 
+    margin-left: 70px;/* Adjusted width to 100% */
+  }
+  
+  .custom-button:hover {
+    background-color: #e4424f;
+    border-color: #e4424f;
+  }
+  
+  .custom-button:active {
+    background-color: #cc3a45;
+    border-color: #cc3a45;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    width: 100%; 
+  }
+
+
+#formBasicEmail {
+    
+    margin-bottom: 15px;
+    align-content: center;
+   
+  }
+  
+  #formBasicPassword {
+   
+    margin-bottom: 15px;
+  }
+  
+  
+  #formBasicEmail .invalid-feedback {
+    
+    display: block;
+    margin-top: 5px;
+    color: #ff0000; 
+  }
+  
+  #formBasicPassword .invalid-feedback {
+    
+    display: block;
+    margin-top: 5px;
+    color: #ff0000; 
+  }
+  
+.input-group-prepend i {
+    color: #ccc; 
+    padding: 10px;
+  }
+  
+  .input-group-text {
+    background-color: transparent;
+    border-color: #ced4da;
+  }
+  
+  .input-group-text i {
+    color: #333; 
+  }
+  
+  
+  
